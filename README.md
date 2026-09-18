@@ -1,303 +1,500 @@
-<div align="center"> <!-- HERO --> <img src="./assets/banner.svg" alt="Reverse Shell v2" width="100%"/> <br> <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=2500&pause=700&color=FF1A1A&center=true&vCenter=true&width=750&lines=REMOTE+ACCESS+%2F%2F+CONTROL+%2F%2F+TRANSFER;PYTHON+%2B+TCP+%2B+SOCKETS;RED+TEAM+LAB+TOOLKIT;BUILT+FOR+ETHICAL+HACKING+%26+EDUCATION" alt="Typing animation"/>
+<div align="center">
+
+# 🔴 REVERSE SHELL v2
+
+### `REMOTE CONTROL • TCP SOCKETS • FILE TRANSFER • SCREEN CAPTURE`
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=1800&pause=500&color=FF0000&center=true&vCenter=true&width=800&lines=INITIALIZING+REVERSE+SHELL+V2...;ESTABLISHING+TCP+CHANNEL...;CLIENT+%3C%3D%3E+CONTROL+NODE;COMMAND+CHANNEL+ONLINE;FILE+TRANSFER+ONLINE;SCREENSHOT+MODULE+ONLINE;AUTHORIZED+LAB+MODE+%5BACTIVE%5D" alt="Animated terminal"/>
+
+<br>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:050505,50:330000,100:ff0000&height=3&section=header" width="100%">
+
+<br>
+
+<a href="https://github.com/romilleuva/reverse-shell-v2">
+<img src="https://img.shields.io/github/stars/romilleuva/reverse-shell-v2?style=for-the-badge&color=ff0000&labelColor=080808&logo=github" alt="Stars">
+</a>
+<a href="https://github.com/romilleuva/reverse-shell-v2/network/members">
+<img src="https://img.shields.io/github/forks/romilleuva/reverse-shell-v2?style=for-the-badge&color=990000&labelColor=080808&logo=github" alt="Forks">
+</a>
+<a href="https://github.com/romilleuva/reverse-shell-v2/commits/main">
+<img src="https://img.shields.io/github/last-commit/romilleuva/reverse-shell-v2?style=for-the-badge&color=cc0000&labelColor=080808&logo=git" alt="Last Commit">
+</a>
+<a href="https://github.com/romilleuva/reverse-shell-v2">
+<img src="https://img.shields.io/github/languages/top/romilleuva/reverse-shell-v2?style=for-the-badge&color=660000&labelColor=080808&logo=python" alt="Python">
+</a>
+
 <br><br>
 
-<br> <a href="https://github.com/romilleuva/reverse-shell-v2"> <img src="https://img.shields.io/github/stars/romilleuva/reverse-shell-v2?style=flat-square&color=ff0000&label=STARS"/> </a> <a href="https://github.com/romilleuva/reverse-shell-v2"> <img src="https://img.shields.io/github/forks/romilleuva/reverse-shell-v2?style=flat-square&color=990000&label=FORKS"/> </a> <a href="https://github.com/romilleuva/reverse-shell-v2"> <img src="https://img.shields.io/github/last-commit/romilleuva/reverse-shell-v2?style=flat-square&color=cc0000&label=LAST%20COMMIT"/> </a>
+<img src="https://skillicons.dev/icons?i=python,linux,git,github&theme=dark" alt="Technology Stack">
 
 <br><br>
 
-⚠️ EDUCATIONAL SECURITY TOOL
+> 🔴 **EDUCATIONAL SECURITY PROJECT**
+>
+> Designed for authorized security research, CTFs, cybersecurity labs, and learning.
+> **Only use this software on systems you own or have explicit permission to test.**
 
-This project is intended for authorized security research, controlled lab environments,
-CTFs, and cybersecurity education. Only use it on systems you own or have explicit
-permission to test.
+</div>
 
-</div> 🩸 > WHOAMI
-Reverse Shell v2 is a Python-based client/server security-learning project demonstrating how a TCP socket connection can be used to establish an interactive remote command channel.
+---
 
-The project currently demonstrates:
+<div align="center">
 
-🖥️ Remote command execution
+## `╔══[ SYSTEM IDENTIFICATION ]══╗`
 
-📸 Live screenshot capture
+```text
+┌──────────────────────────────────────────────────────────────┐
+│                                                              │
+│   ██████╗ ███████╗██╗   ██╗███████╗██████╗ ███████╗███████╗ │
+│   ██╔══██╗██╔════╝██║   ██║██╔════╝██╔══██╗██╔════╝██╔════╝ │
+│   ██████╔╝█████╗  ██║   ██║█████╗  ██████╔╝█████╗  ███████╗ │
+│   ██╔══██╗██╔══╝  ╚██╗ ██╔╝██╔══╝  ██╔══██╗██╔══╝  ╚════██║ │
+│   ██║  ██║███████╗ ╚████╔╝ ███████╗██║  ██║███████╗███████║ │
+│   ╚═╝  ╚═╝╚══════╝  ╚═══╝  ╚══════╝╚═╝  ╚═╝╚══════╝╚══════╝ │
+│                                                              │
+│                    R E V E R S E   S H E L L                 │
+│                         V E R S I O N   2                    │
+│                                                              │
+└──────────────────────────────────────────────────────────────┘
+🩸 > ABOUT
+Reverse Shell v2 is a Python client/server project built to demonstrate TCP socket communication, interactive command execution, screenshot transfer, and bidirectional file transfer in a controlled environment.
 
-📤 File upload
+The repository contains two primary components:
 
-📥 File download
+┌─────────────────────┐
+│     Exploit.py      │
+│   CONTROL / SERVER  │
+└──────────┬──────────┘
+           │
+           │ TCP
+           │
+           ▼
+┌─────────────────────┐
+│      Client.py      │
+│       CLIENT        │
+└─────────────────────┘
 
-🔌 TCP client/server communication
+The control side listens for connections while the client establishes the TCP connection and handles supported requests.
 
-🐍 Python socket programming
+🔴 > LIVE SYSTEM
+<div align="center">
+╔════════════════════════════════════════════════════════════╗
+║                     REVERSE SHELL v2                       ║
+╠════════════════════════════════════════════════════════════╣
+║                                                            ║
+║  PROTOCOL        :: TCP                                    ║
+║  LANGUAGE        :: PYTHON                                 ║
+║  ARCHITECTURE    :: CLIENT / SERVER                        ║
+║  CONTROL PORT    :: 9999                                   ║
+║  COMMAND CHANNEL :: ACTIVE                                 ║
+║  FILE TRANSFER   :: ACTIVE                                 ║
+║  SCREEN CAPTURE  :: ACTIVE                                 ║
+║                                                            ║
+║  STATUS          :: ● ONLINE                               ║
+║                                                            ║
+╚════════════════════════════════════════════════════════════╝
 
-🧵 Thread-based connection handling
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:ff0000,50:660000,100:050505&height=4&section=header" width="80%"> </div>
+⚡ > FEATURES
+<div align="center">
+MODULE	FUNCTION	STATUS
+🖥️	Remote command execution	🔴 ONLINE
+📸	Screenshot capture	🔴 ONLINE
+📤	File upload	🔴 ONLINE
+📥	File download	🔴 ONLINE
+🔌	TCP socket communication	🔴 ONLINE
+🧵	Threaded server handling	🔴 ONLINE
+🧾	JSON message protocol	🔴 ONLINE
+🖥️	Interactive CLI	🔴 ONLINE
 
-🖥️ Interactive terminal interface
+</div>
+🧬 > ARCHITECTURE
+flowchart LR
 
-The goal is learning how remote-control channels work, not providing a production-ready remote administration system.
+    A["🔴 CONTROL NODE<br/><b>Exploit.py</b>"]
+    B["⚡ TCP SOCKET<br/>:9999"]
+    C["💻 CLIENT<br/><b>Client.py</b>"]
 
-🔴 > SYSTEM STATUS
-╔══════════════════════════════════════════════════════════════╗
-║ REVERSE SHELL v2.0 ║
-╠══════════════════════════════════════════════════════════════╣
-║ STATUS : ONLINE ║
-║ PROTOCOL : TCP ║
-║ LANGUAGE : PYTHON ║
-║ ARCHITECTURE : CLIENT / SERVER ║
-║ MODE : EDUCATIONAL SECURITY RESEARCH ║
-║ UI : INTERACTIVE TERMINAL ║
-╚══════════════════════════════════════════════════════════════╝
+    A -->|"COMMAND"| B
+    B -->|"TCP CHANNEL"| C
+    C -->|"JSON RESPONSE"| B
+    B -->|"OUTPUT"| A
 
-⚡ > CAPABILITIES
+    A --> D["📸 SCREENSHOT"]
+    A --> E["📤 UPLOAD"]
+    A --> F["📥 DOWNLOAD"]
 
-<div align="center"> Module Capability Status 01 Remote command execution 🔴 ACTIVE 02 Screenshot capture 🔴 ACTIVE 03 File upload 🔴 ACTIVE 04 File download 🔴 ACTIVE 05 TCP communication 🔴 ACTIVE 06 Interactive command interface 🔴 ACTIVE </div> 🧬 > ARCHITECTURE flowchart LR
-A["🖥️ CONTROL NODE<br/>Exploit.py"]
-B["🔌 TCP SOCKET"]
-C["💻 CLIENT<br/>Client.py"]
+    style A fill:#050505,stroke:#ff0000,color:#ff3333,stroke-width:3px
+    style B fill:#100000,stroke:#ff0000,color:#ffffff,stroke-width:3px
+    style C fill:#050505,stroke:#cc0000,color:#ff3333,stroke-width:3px
+    style D fill:#120000,stroke:#ff0000,color:#ffffff
+    style E fill:#120000,stroke:#ff0000,color:#ffffff
+    style F fill:#120000,stroke:#ff0000,color:#ffffff
 
-A -->|Connect / Commands| B
-B -->|TCP Channel| C
+🔥 Communication Flow
+                         ┌──────────────────────┐
+                         │     CONTROL NODE     │
+                         │      Exploit.py      │
+                         └──────────┬───────────┘
+                                    │
+                                    │ COMMAND
+                                    ▼
+                         ╔══════════════════════╗
+                         ║     TCP CHANNEL      ║
+                         ║       :9999          ║
+                         ╚══════════╤═══════════╝
+                                    │
+                                    │ REQUEST
+                                    ▼
+                         ┌──────────────────────┐
+                         │        CLIENT        │
+                         │       Client.py      │
+                         └──────────┬───────────┘
+                                    │
+                    ┌───────────────┼────────────────┐
+                    │               │                │
+                    ▼               ▼                ▼
+             ┌────────────┐  ┌────────────┐  ┌────────────┐
+             │  COMMAND   │  │ SCREENSHOT │  │    FILE    │
+             │ EXECUTION  │  │   MODULE   │  │  TRANSFER  │
+             └─────┬──────┘  └─────┬──────┘  └─────┬──────┘
+                   │               │                │
+                   └───────────────┼────────────────┘
+                                   │
+                                   ▼
+                         ┌──────────────────────┐
+                         │       RESPONSE       │
+                         │    JSON / BINARY     │
+                         └──────────────────────┘
 
-C -->|Command Output| B
-B -->|Response| A
+🕸️ > COMMAND CHANNEL
+The control interface accepts commands and sends them through the established TCP connection.
 
-A --> D["📸 Screenshot"]
-A --> E["📤 Upload"]
-A --> F["📥 Download"]
+┌─────────────────────────────────────────────────────────┐
+│                    INTERACTIVE CLI                      │
+└─────────────────────────────────────────────────────────┘
 
-style A fill:#050505,stroke:#ff0000,color:#ff3333
-style B fill:#0b0000,stroke:#990000,color:#ffffff
-style C fill:#050505,stroke:#ff0000,color:#ff3333
-style D fill:#120000,stroke:#cc0000,color:#ffffff
-style E fill:#120000,stroke:#cc0000,color:#ffffff
-style F fill:#120000,stroke:#cc0000,color:#ffffff
+[hostname]$ whoami
 
-Data Flow
-┌───────────────────────┐
-│ CONTROL │
-│ Exploit.py │
-└───────────┬───────────┘
-│
-│ TCP
-▼
-╔═══════════════════════╗
-║ SOCKET CHANNEL ║
-╚═══════════╤═══════════╝
-│
-▼
-┌───────────────────────┐
-│ CLIENT │
-│ Client.py │
-└───────────┬───────────┘
-│
-┌────────────────┼────────────────┐
-▼ ▼ ▼
-┌──────────┐ ┌──────────┐ ┌──────────┐
-│ COMMAND │ │ SCREEN │ │ FILES │
-│ EXEC │ │ CAPTURE │ │ TRANSFER │
-└──────────┘ └──────────┘ └──────────┘
+[+] COMMAND
+    │
+    ▼
+[+] TCP SEND
+    │
+    ▼
+[+] CLIENT EXECUTION
+    │
+    ▼
+[+] JSON RESPONSE
+    │
+    ▼
+[+] OUTPUT DISPLAYED
 
-🕸️ > FEATURE MATRIX
-🖥️ Remote Command Channel
+Example:
 
-The control side provides an interactive terminal-style interface for sending commands to the connected client and receiving command output.
+[workstation]$ whoami
 
-[client-host]$ whoami
+{
+    "type": "cmd_result",
+    "command": "whoami",
+    "output": "user",
+    "cwd": "/home/user",
+    "hostname": "workstation"
+}
 
-[+] command sent
-[+] response received
+📸 > SCREENSHOT ENGINE
+The client uses PyAutoGUI to capture the screen and transfers the PNG data through the established socket connection.
 
-📸 Screenshot Capture
+                 SCREENSHOT REQUEST
+                         │
+                         ▼
+                ┌─────────────────┐
+                │    CLIENT.PY    │
+                └────────┬────────┘
+                         │
+                         ▼
+                 ┌───────────────┐
+                 │   PyAutoGUI   │
+                 └───────┬───────┘
+                         │
+                         ▼
+                    PNG BUFFER
+                         │
+                         ▼
+                  JSON METADATA
+                         │
+                         ▼
+                    TCP STREAM
+                         │
+                         ▼
+                ┌─────────────────┐
+                │   CONTROL NODE  │
+                └─────────────────┘
 
-The project includes a screenshot command that requests a screenshot from the client and transfers the resulting data back to the control side.
+📦 > FILE TRANSFER
+Upload
+CONTROL NODE
+     │
+     │ file metadata
+     ▼
+   CLIENT
+     │
+     │ ACK
+     ▼
+CONTROL NODE
+     │
+     │ binary file data
+     ▼
+   CLIENT
+     │
+     ▼
+ SAVED FILE
 
-[client-host]$ screenshot
+Download
+CONTROL NODE
+     │
+     │ download request
+     ▼
+   CLIENT
+     │
+     │ file metadata
+     ▼
+CONTROL NODE
+     │
+     │ ACK
+     ▼
+   CLIENT
+     │
+     │ binary data
+     ▼
+CONTROL NODE
+     │
+     ▼
+ SAVED FILE
 
-[+] requesting screenshot
-[+] receiving image data
-[+] displaying result
+🧰 > TECHNOLOGY
+<div align="center"> <img src="https://skillicons.dev/icons?i=python,linux,git,github&theme=dark" width="350"> </div>
+╔══════════════════════════════════════════════════════════╗
+║                     TECHNOLOGY                           ║
+╠══════════════════════════════════════════════════════════╣
+║                                                          ║
+║  LANGUAGE       → Python                                 ║
+║  NETWORK        → TCP / IPv4                             ║
+║  SOCKET API     → Python socket                          ║
+║  PROTOCOL       → JSON + binary payloads                 ║
+║  SCREENSHOT     → PyAutoGUI                              ║
+║  COMMANDS       → subprocess / shell                    ║
+║  CONCURRENCY    → Python threading                       ║
+║                                                          ║
+╚══════════════════════════════════════════════════════════╝
 
-📤 File Upload
-
-Files can be transferred from the control side to the connected client.
-
-[client-host]$ upload <file>
-
-📥 File Download
-
-Files can also be transferred from the connected client back to the control side.
-
-[client-host]$ download <file>
-
-🧰 > TECH STACK
-
-<div align="center"> <img src="https://skillicons.dev/icons?i=python,linux,git,github&theme=dark" alt="Tech stack"/> </div> LANGUAGE ───────► Python NETWORKING ───────► TCP / Sockets ARCHITECTURE ───────► Client / Server CONCURRENCY ───────► Python Threads DATA ───────► Socket Streams / JSON INTERFACE ───────► Interactive CLI
 📁 > PROJECT STRUCTURE
 reverse-shell-v2/
 │
 ├── 🔴 Client.py
-│ └── Client-side connection & command handling
+│   └── Client connection & request handling
 │
 ├── 🔴 Exploit.py
-│ └── Server/control-side implementation
+│   └── Control/server implementation
 │
-├── 📝 README.md
-│ └── Project documentation
+├── 📄 README.md
+│   └── Documentation
 │
-└── 🎨 assets/
-├── banner.svg
-├── architecture.svg
-└── terminal.gif
+└── 📂 assets/
+    └── Optional visual assets
 
 🚀 > QUICK START
-
-Clone
+01 — Clone
 git clone https://github.com/romilleuva/reverse-shell-v2.git
 cd reverse-shell-v2
 
-Start the control side
+02 — Install dependency
+The client uses PyAutoGUI for screenshots:
+
+pip install pyautogui
+
+03 — Start the control node
 python Exploit.py
 
-Start the client
+The current implementation listens on:
 
-Run Client.py only inside your authorized lab/test environment and configure the connection endpoint required by the project.
+0.0.0.0:9999
+
+04 — Start the client
+For an authorized local/lab environment:
 
 python Client.py
 
-💡 For security testing, use an isolated VM/lab network rather than a third-party or production system.
+The default client configuration connects to:
 
-🧪 > LAB WORKFLOW
-┌────────────────────────────────────────────────────────────┐
-│ CONTROLLED LAB │
-├────────────────────────────────────────────────────────────┤
-│ │
-│ ┌──────────────┐ ┌──────────────┐ │
-│ │ SECURITY │ │ TEST │ │
-│ │ VM / HOST │ │ VM │ │
-│ └──────┬───────┘ └──────┬───────┘ │
-│ │ │ │
-│ │ TCP LAB CHANNEL │ │
-│ └──────────────────────────────────┘ │
-│ │
-│ 🧪 AUTHORIZED TEST ENVIRONMENT │
-│ │
-└────────────────────────────────────────────────────────────┘
+127.0.0.1:9999
 
-🔥 > COMMAND CONCEPT
+🧪 > DEMO ENVIRONMENT
+╔══════════════════════════════════════════════════════════════╗
+║                    CONTROLLED LAB                           ║
+╠══════════════════════════════════════════════════════════════╣
+║                                                              ║
+║   ┌─────────────────┐          ┌─────────────────┐           ║
+║   │                 │          │                 │           ║
+║   │  CONTROL VM     │          │    TEST VM      │           ║
+║   │                 │          │                 │           ║
+║   │   Exploit.py    │◄────────►│    Client.py    │           ║
+║   │                 │   TCP    │                 │           ║
+║   └─────────────────┘          └─────────────────┘           ║
+║                                                              ║
+║                  🔴 AUTHORIZED LAB ONLY 🔴                   ║
+║                                                              ║
+╚══════════════════════════════════════════════════════════════╝
 
-The interactive interface follows a simple command-channel model:
+🎯 > USE CASES
+This project is useful for learning about:
 
-                USER INPUT
-                    │
-                    ▼
-           ┌─────────────────┐
-           │ COMMAND PARSER  │
-           └────────┬────────┘
-                    │
-      ┌─────────────┼─────────────┐
-      ▼             ▼             ▼
-  COMMAND       SCREENSHOT       FILE
-   MODE           MODE          MODE
-      │             │             │
-      ▼             ▼             ▼
-   SEND TCP      IMAGE DATA    TRANSFER
-      │             │             │
-      └─────────────┼─────────────┘
-                    ▼
-                RESPONSE
+Python networking
 
-🧠 > WHAT THIS PROJECT TEACHES
+TCP sockets
 
-This project can be useful for studying:
+Client/server architecture
 
-Python socket programming
-
-TCP client/server architecture
-
-Network communication
-
-Command-channel design
-
-Threading and concurrent connections
+JSON-based messaging
 
 Binary data transfer
 
-File-transfer protocols
+Screenshot transmission
 
-Security tooling concepts
+File transfer protocols
 
-Red-team lab fundamentals
+Interactive command channels
 
-Detection opportunities for remote-control channels
+Threading
 
-🛡️ > SECURITY & ETHICS
+Security research
 
-This repository demonstrates functionality that can be dual-use.
+Controlled penetration-testing labs
 
-Use it responsibly.
+Detection and monitoring of remote-control traffic
 
-╔══════════════════════════════════════════════════════════╗
-║ AUTHORIZATION RULE ║
-╠══════════════════════════════════════════════════════════╣
-║ ║
-║ ✔ Your own computer ║
-║ ✔ Your own virtual machines ║
-║ ✔ Authorized penetration-testing labs ║
-║ ✔ CTF / educational environments ║
-║ ✔ Systems where you have explicit permission ║
-║ ║
-║ ✘ Unauthorized computers ║
-║ ✘ Third-party systems ║
-║ ✘ Production systems without authorization ║
-║ ✘ Credential/data theft ║
-║ ║
-╚══════════════════════════════════════════════════════════╝
+📡 > PROTOCOL
+The project uses structured JSON messages for several operations.
 
-The author is not responsible for misuse of this project.
+{
+  "type": "cmd_result",
+  "command": "example",
+  "output": "command output",
+  "cwd": "/current/path",
+  "hostname": "machine"
+}
 
-📸 > VISUAL DEMO
+Screenshot metadata follows the same general message-oriented approach:
 
-Put your own screenshots/GIFs inside assets/ and replace the placeholders below:
+{
+  "type": "screenshot",
+  "size": 123456
+}
 
-<div align="center"> <img src="./assets/terminal.gif" width="90%" alt="Terminal demonstration"/>
+File-transfer messages contain metadata such as:
+
+{
+  "type": "upload",
+  "name": "example.txt",
+  "size": 1024
+}
+
+🩸 > TERMINAL SIMULATION
+┌──(romil㉿lab)-[~/reverse-shell-v2]
+└─$ python Exploit.py
+
+[+] Server Listening on 0.0.0.0:9999
+[+] Connection received
+[+] Hostname: LAB-CLIENT
+
+[LAB-CLIENT]$ whoami
+user
+
+[LAB-CLIENT]$ screenshot
+[+] Screenshot saved
+
+[LAB-CLIENT]$ download example.txt
+[+] File downloaded
+
+[LAB-CLIENT]$ upload test.txt
+[+] File uploaded
+
+📊 > REPOSITORY
+<div align="center"> <a href="https://github.com/romilleuva/reverse-shell-v2"> <img src="https://github-readme-stats.vercel.app/api/pin/?username=romilleuva&repo=reverse-shell-v2&theme=dark&bg_color=050505&title_color=ff0000&text_color=ffffff&icon_color=ff0000&border_color=660000" width="500" alt="Repository Card"> </a>
 <br><br>
 
-<img src="./assets/architecture.svg" width="90%" alt="Architecture diagram"/> </div>
-Recommended assets
-assets/
-├── banner.svg ← animated red/black hero
-├── terminal.gif ← terminal demo
-├── architecture.svg ← network diagram
-├── screenshot.png ← screenshot feature
-└── workflow.gif ← project workflow
+<img src="https://github-readme-stats.vercel.app/api?username=romilleuva&show_icons=true&hide_border=true&bg_color=050505&title_color=ff0000&text_color=ffffff&icon_color=ff0000&include_all_commits=true" width="500" alt="GitHub Stats"> </div>
+🛣️ > ROADMAP
+                    REVERSE SHELL v2
+                           │
+                           ▼
+                 ┌───────────────────┐
+                 │   CURRENT BUILD   │
+                 └─────────┬─────────┘
+                           │
+          ┌────────────────┼────────────────┐
+          │                │                │
+          ▼                ▼                ▼
+      COMMAND           SCREENSHOT        FILES
+       CHANNEL            MODULE         TRANSFER
+          │                │                │
+          └────────────────┼────────────────┘
+                           │
+                           ▼
+                  ┌─────────────────┐
+                  │  NEXT ITERATION │
+                  └────────┬────────┘
+                           │
+             ┌─────────────┼─────────────┐
+             ▼             ▼             ▼
+         Protocol       Testing       UI / CLI
+         cleanup       framework     improvements
 
-📊 > PROJECT TELEMETRY
+Planned improvements
+[✓] TCP client/server communication
+[✓] Remote command execution
+[✓] Screenshot capture
+[✓] File upload
+[✓] File download
+[✓] JSON message handling
+[✓] Interactive CLI
 
-<div align="center"> <img src="https://github-readme-stats.vercel.app/api/pin/?username=romilleuva&repo=reverse-shell-v2&theme=dark&title_color=ff0000&icon_color=ff0000&text_color=ffffff&bg_color=050505&border_color=660000" alt="Repository statistics"/> </div> 🩸 > ROADMAP [✓] TCP client/server communication [✓] Remote command execution [✓] Screenshot capture [✓] File upload/download [ ] Cleaner command protocol [ ] Better connection handling [ ] Improved error handling [ ] Safer lab configuration [ ] Automated testing [ ] Documentation improvements [ ] Better UI / terminal experience
-🤝 > CONTRIBUTING
+[ ] Improved protocol framing
+[ ] Better connection lifecycle
+[ ] Better error handling
+[ ] Automated tests
+[ ] Cleaner CLI
+[ ] Improved documentation
+[ ] Safer lab configuration
+[ ] Better logging
 
-Contributions are welcome when they improve the project's educational value, reliability, documentation, or safe lab usage.
+🛡️ > SECURITY & ETHICS
+This project provides functionality that can be dual-use.
 
-FORK
-│
-▼
-CREATE BRANCH
-│
-▼
-MAKE CHANGES
-│
-▼
-TEST IN LAB
-│
-▼
-COMMIT
-│
-▼
-PULL REQUEST
+Use it only in environments where you have authorization.
 
-Please avoid contributions intended to facilitate unauthorized access, credential theft, persistence, evasion, or deployment against systems without permission.
+╔══════════════════════════════════════════════════════════╗
+║                    AUTHORIZATION                          ║
+╠══════════════════════════════════════════════════════════╣
+║                                                          ║
+║   ✓ Your own machines                                   ║
+║   ✓ Your own virtual machines                           ║
+║   ✓ Isolated cybersecurity labs                        ║
+║   ✓ CTF environments                                    ║
+║   ✓ Authorized penetration testing                      ║
+║   ✓ Educational research                                ║
+║                                                          ║
+║   ✗ Unauthorized systems                                ║
+║   ✗ Third-party machines                                ║
+║   ✗ Production systems without permission               ║
+║   ✗ Credential or data theft                             ║
+║                                                          ║
+╚══════════════════════════════════════════════════════════╝
 
-🐛 > REPORTING ISSUES
-
-When opening an issue, include:
+🐛 > BUG REPORTING
+When reporting an issue, include:
 
 Operating system
 
@@ -307,30 +504,71 @@ Error message
 
 Relevant logs
 
-Reproduction steps
+Steps to reproduce
 
-Whether the issue occurs on the client or control side
+Client/control-side information
 
-Never include passwords, tokens, private keys, or sensitive system information.
+Never include:
 
-👤 > AUTHOR // ROMILLEUVA
+Passwords
 
-<div align="center"> ROMIL LEUVA
-FULL-STACK DEVELOPER · CYBERSECURITY ENTHUSIAST · PYTHON
+API keys
 
-╔══════════════════════════════════════════╗
-║ ║
-║ BUILD → BREAK → LEARN → BUILD ║
-║ ║
-╚══════════════════════════════════════════╝
+Tokens
 
-Cybersecurity • Reverse Engineering • Python • Web Development
+Private keys
 
-<br> <img src="https://skillicons.dev/icons?i=python,javascript,react,nextjs,nodejs,flask,git,github&theme=dark" alt="Skills"/>
+Personal data
 
+Sensitive system information
+
+🤝 > CONTRIBUTING
+             ┌──────────────┐
+             │     FORK     │
+             └──────┬───────┘
+                    │
+                    ▼
+             ┌──────────────┐
+             │ CREATE BRANCH│
+             └──────┬───────┘
+                    │
+                    ▼
+             ┌──────────────┐
+             │ MAKE CHANGES │
+             └──────┬───────┘
+                    │
+                    ▼
+             ┌──────────────┐
+             │ TEST IN LAB  │
+             └──────┬───────┘
+                    │
+                    ▼
+             ┌──────────────┐
+             │    COMMIT    │
+             └──────┬───────┘
+                    │
+                    ▼
+             ┌──────────────┐
+             │ PULL REQUEST │
+             └──────────────┘
+
+Contributions that improve reliability, documentation, testing, protocol design, or safe educational use are welcome.
+
+👤 > AUTHOR
+<div align="center"> <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=FF0000&center=true&vCenter=true&width=650&lines=ROMIL+LEUVA;FULL-STACK+DEVELOPER;PYTHON+ENTHUSIAST;CYBERSECURITY+LEARNER;BUILD+%E2%86%92+BREAK+%E2%86%92+LEARN+%E2%86%92+BUILD" alt="Author animation"/>
 <br><br>
 
-<a href="https://github.com/romilleuva"> <img src="https://img.shields.io/badge/GitHub-romilleuva-111111?style=for-the-badge&logo=github&logoColor=ffffff"/> </a> <a href="https://github.com/romilleuva/reverse-shell-v2"> <img src="https://img.shields.io/badge/PROJECT-Reverse%20Shell%20v2-8B0000?style=for-the-badge&logo=github&logoColor=ffffff"/> </a> </div>
+<a href="https://github.com/romilleuva"> <img src="https://img.shields.io/badge/GITHUB-romilleuva-050505?style=for-the-badge&logo=github&logoColor=white&labelColor=660000"> </a> <a href="https://github.com/romilleuva/reverse-shell-v2"> <img src="https://img.shields.io/badge/REPOSITORY-REVERSE%20SHELL%20V2-050505?style=for-the-badge&logo=github&logoColor=white&labelColor=990000"> </a>
+<br><br>
 
-<div align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&color=0:050505,50:660000,100:ff0000&height=120&section=footer" width="100%"/> // CONNECTION CLOSED [ SYSTEM ] Thank you for visiting. [ SYSTEM ] Stay curious. [ SYSTEM ] Hack ethically.
-⭐ Star the repository if you found the project useful for learning.
+<img src="https://skillicons.dev/icons?i=python,javascript,react,nextjs,nodejs,flask,git,github&theme=dark" alt="Skills"> </div>
+<div align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&color=0:050505,35:330000,70:990000,100:ff0000&height=160&section=footer&text=CONNECTION%20CLOSED&fontSize=25&fontColor=ffffff&animation=twinkling&fontAlignY=65" width="100%"> <br>
+[ SYSTEM ] CONNECTION CLOSED
+[ SYSTEM ] STAY CURIOUS
+[ SYSTEM ] KEEP LEARNING
+[ SYSTEM ] HACK ETHICALLY
+
+<br>
+⭐ If this project helped you learn something, consider starring the repository.
+
+</div> ```
